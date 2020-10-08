@@ -6,6 +6,10 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="upgrade-insecure-requests"
+    />
     <title>Welcome to Ez Ratech</title>
     <link rel="shortcut icon" href="favicon.ico" />
     <!--Bootstrap CSS-->
@@ -511,16 +515,5 @@
         window.open("mailto:ezratech.io@gmail.com", "_self");
       }
     </script>
-
-    <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
-  chromium.org/developers/how-tos/chrome-frame-getting-started -->
-    <!--[if lt IE 7]>
-      <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
-      <script>
-        window.attachEvent("onload", function () {
-          CFInstall.check({ mode: "overlay" });
-        });
-      </script>
-    <![endif]-->
   </body>
 </html>
