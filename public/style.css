@@ -218,7 +218,7 @@ select {
 .ccr-line {
   width: 87px;
   height: 3px;
-  background: #14a58c;
+  background: #fff;
   margin: 0 auto;
   margin-top: 0px;
   margin-bottom: 15px;
@@ -321,7 +321,7 @@ select {
   background: #3ec2bd;
 }
 .ccr-logo {
-  margin-left: 30px;
+  margin-left: 0px;
   margin-top: -7px;
 }
 
@@ -468,7 +468,7 @@ select {
 #ccr-team .ccr-team-item img {
   border-radius: 100%;
   padding: 10px;
-  background: #696969;
+  background: #fff;
 }
 #ccr-team .ccr-first-iteam,
 #ccr-team .ccr-second-iteam,
@@ -484,7 +484,7 @@ select {
   color: #878787;
 }
 #ccr-team .designation {
-  color: #30bae7;
+  color: #3c4761;
   padding-bottom: 10px;
 }
 #ccr-team .ccr-social i {
@@ -512,8 +512,8 @@ select {
   -ms-transform: rotate(360deg);
   transform: rotate(360deg);
 }
-#ccr-team .ccr-social .fa-twitter:hover {
-  background: #2ca8d2;
+#ccr-team .ccr-social .fa-github:hover {
+  background: #302f2f;
   color: #fff;
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
