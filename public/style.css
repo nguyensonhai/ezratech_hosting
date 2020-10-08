@@ -215,6 +215,9 @@ input,
 select {
   vertical-align: middle;
 }
+.title-text {
+  color: #2b2e35;
+}
 .ccr-line {
   width: 87px;
   height: 3px;
@@ -318,7 +321,7 @@ select {
   padding-top: 55px;
 }
 .ccr-hbg {
-  background: #3ec2bd;
+  background: #fff;
 }
 .ccr-logo {
   margin-left: 0px;
@@ -458,10 +461,10 @@ select {
   padding-bottom: 50px;
 }
 #ccr-team .ccr-team-title h1 {
-  color: #3c4761;
+  color: #2b2e35;
 }
 #ccr-team .ccr-team-item h3 {
-  color: #3c4761;
+  color: #2b2e35;
   padding-top: 10px;
   padding-bottom: 0px;
 }
@@ -477,23 +480,23 @@ select {
   margin-bottom: 30px;
 }
 #ccr-team .ccr-team-slug p {
-  color: #3c4761;
+  color: #2b2e35;
 }
 #ccr-team .ccr-team-item i {
   font-size: 11em;
   color: #878787;
 }
 #ccr-team .designation {
-  color: #3c4761;
+  color: #2b2e35;
   padding-bottom: 10px;
 }
 #ccr-team .ccr-social i {
-  font-size: 0.8em;
+  font-size: 1.5em;
   background: #ccc;
   padding: 10px;
   border-radius: 50%;
-  width: 32px;
-  height: 32px;
+  width: 45px;
+  height: 45px;
   display: inline-block;
   color: #fff;
   margin: 3px auto;
@@ -521,17 +524,8 @@ select {
   -ms-transform: rotate(360deg);
   transform: rotate(360deg);
 }
-#ccr-team .ccr-social .fa-linkedin:hover {
-  background: #399bdc;
-  color: #fff;
-  -webkit-transform: rotate(360deg);
-  -moz-transform: rotate(360deg);
-  -o-transform: rotate(360deg);
-  -ms-transform: rotate(360deg);
-  transform: rotate(360deg);
-}
 #ccr-team .ccr-social .fa-envelope:hover {
-  background: #738a8d;
+  background: #d54b3e;
   color: #fff;
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
@@ -555,17 +549,17 @@ select {
   padding-bottom: 110px;
 }
 #ccr-skill .ccr-line {
-  background: #dfe8ed;
+  background: #2b2e35;
 }
 #ccr-skill .ccr-skill-title h1 {
-  color: #3c4761;
+  color: #2b2e35;
 }
 #ccr-skill .ccr-skill-item {
   padding-top: 50px;
   padding-bottom: 30px;
 }
 #ccr-skill .ccr-skill-item h3 {
-  color: #3c4761;
+  color: #3ec2bd;
   font-weight: 700;
 }
 
@@ -707,9 +701,9 @@ select {
   padding-bottom: 0;
 }
 #ccr-touch input {
-  background: #2b2e35;
+  background: #fff;
   border: 0;
-  color: #fff;
+  color: #2b2e35;
 }
 #ccr-touch input:focus {
   -webkit-box-shadow: none;
@@ -720,11 +714,11 @@ select {
   padding-bottom: 30px;
 }
 #ccr-touch textarea {
-  background: #2b2e35;
+  background: #fff;
   border: none;
   padding: 5px;
   width: 100%;
-  color: #fff;
+  color: #2b2e35;
   font-size: 0.9em;
 }
 #ccr-touch textarea:focus {
@@ -735,7 +729,7 @@ select {
   background: #2b2e35;
   font-size: 1.1em;
   font-weight: 700;
-  border-bottom-color: #2b2e35;
+  border-bottom-color: #fff;
   outline: none;
 }
 #ccr-touch .ccr-button:hover {
