@@ -542,6 +542,10 @@ select {
   padding-bottom: 15px;
 }
 
+#ccr-team .ccr-line {
+  background: #2b2e35;
+}
+
 /* -skill
 ================================ */
 .ccr-skill-bg {
