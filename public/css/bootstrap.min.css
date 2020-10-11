@@ -5900,7 +5900,10 @@ td.hidden-md {
   .img-header {
     display: block;
     height: auto;
-    max-width: 90%;
+    max-width: 120px;
+    position: fixed;
+    z-index: 999;
+    margin: 5px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -5918,7 +5921,10 @@ td.hidden-md {
   .img-header {
     display: block;
     height: auto;
-    max-width: 70%;
+    max-width: 150px;
+    position: fixed;
+    z-index: 999;
+    margin: 10px;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -5936,7 +5942,10 @@ td.hidden-md {
   .img-header {
     display: block;
     height: auto;
-    max-width: 60%;
+    max-width: 170px;
+    position: fixed;
+    z-index: 999;
+    margin: 10px;
   }
 }
 @media (min-width: 1200px) {
@@ -5950,11 +5959,13 @@ td.hidden-md {
   td.hidden-md.hidden-lg {
     display: none !important;
   }
-
   .img-header {
     display: block;
     height: auto;
-    max-width: 40%;
+    max-width: 200px;
+    position: fixed;
+    z-index: 999;
+    margin: 10px;
   }
 }
 .hidden-lg {

@@ -79,6 +79,7 @@ video {
   background: transparent;
   font-family: "Titillium Web", sans-serif;
   line-height: 1.5em;
+  scroll-behavior: smooth;
 }
 body {
   line-height: 1;
@@ -267,12 +268,13 @@ select {
 }
 #loader {
   background: url(images/loader.gif) center center no-repeat;
-  height: 50px;
-  width: 50px;
-  left: 50%;
-  top: 50%;
-  position: absolute;
-  margin: -25px 0 0 -25px;
+  height: 100px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
 }
 
 .element_from_top {
